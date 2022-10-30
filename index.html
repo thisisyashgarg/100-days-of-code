@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form novalidate action="http://localhost:5502/form" method="GET">
+
+        <h1>Upload a file</h1>
+        <input type="file" accept=".js" enctype="">
+
+        
+
+        <label></label>Name <input type="text" ></label>
+        <label></label>Email <input type="email" ></label>
+
+        <h1>Fieldset</h1>
+        <fieldset>
+            <legend>Address</legend>
+            <label></label>House No <input type="text" ></label>
+            <label></label>Street <input type="text" ></label>
+            <label></label>Pincode <input type="number" ></label>
+        </fieldset>
+
+        <h1>Basic tags</h1>
+
+        <input type="color" >
+        <input type="date" >
+        <input type="datetime-local" >
+        <input type="week" >
+        <input type="month" >
+
+        <h1>Radio buttons</h1>
+
+        Orange <input type="radio" value= "Orange" checked name="fruit">
+        Banana <input type="radio" value= "Banana" checked name="fruit">
+        
+        <label>Username<input type="text" required name="username" value="John Doe"></label>
+        <button>Submit</button>
+
+    </form>
+
+    <h1>Email and submit</h1>
+    <form action="">
+        <input type="email" pattern=".*@gmail.com" >
+        <input type="submit" value="Submit" >
+    </form>
+
+    <input type="hidden">
+
+    <h1>Image</h1>
+    <input type="image" src="../nodeCrashCourse/public/trashcan.svg">
+
+    <h1>Range</h1>
+    <input type="range" value="50" max="100">
+
+    <h1>Tel Tag</h1>
+    <input type="tel"> 
+
+    <h1>Meter</h1>
+
+   <meter
+   id="fuel"
+   min="0"
+   max="100"
+   low="30"
+   high="60"
+   optimum="70"
+   value="10"
+   >
+
+   </meter>
+
+   <h1>Progress</h1>
+   <progress value="50" max="100">Hi</progress>
+
+   <h1>Output</h1>
+
+   <form oninput="result.value = a.valueAsNumber + b.valueAsNumber">
+    <input type="range" id="b" name="b" value="50"> +
+    <input type="number" id="a" name="a" value="10"> =
+    <output name="result" for="a b">60</output>
+   </form>
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
