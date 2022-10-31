@@ -1,11 +1,10 @@
 import express from 'express'
 const app = express();
-const port = 5502;
 
-
-app.listen(port, ()=>{
-    console.log(`server running on http://localhost:${port}`);
+app.listen(5502, ()=>{
+    console.log(`server running on 5502`);
 });
+
 
 app.get('/form', (req, res) => {
     console.log(req.body);
