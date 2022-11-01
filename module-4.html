@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* body{
+            counter-reset: h1;
+        } */
+
+        /* h1::before{
+            counter-increment: h1;
+            content:counter(h1) " ";
+        } */
+
+        /* h1::first-letter{
+           color: red;
+           font-size: 1.5em;
+        }
+
+        h1::selection{
+            color: green;
+        } */
+
+        /* attribute selctors, [] is existence , = is equality, ~= is space, ^= is prefix, *= is substring, $= is suffix  */
+        /* div[class]{
+            background-color: lightblue;
+
+        }
+        
+        p[title ="xyz"]{
+            background-color: red;
+        }
+
+        .inner{
+            color: blue;
+        }
+
+        .outer{
+            background-color: coral;
+        } */
+
+        
+        /* *[class~= "inner"]{
+            background-color: purple;
+
+        } */
+
+        *[class^= "i"]{
+            background-color: orange;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+    <h1>Heading 2</h1>
+    <p class="inner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+
+    <h1>Heading 3</h1>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+
+    <h1>Heading 4</h1>
+    <p title="xyz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+
+    <h1>Heading </h1>
+
+    <div class="example">
+        <h1>Heading 4</h1>
+        <p class="inner outer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+    </div>
+
+    <div id="example ">
+        <h1>Heading 4</h1>
+        <p class="inward">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis nulla adipisci sint esse ad facere modi dolore soluta at.</p>
+    </div>
+    
+</body>
+</html>
