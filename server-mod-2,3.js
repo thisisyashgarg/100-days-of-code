@@ -12,7 +12,7 @@ document.getElementById('B').outerHTML = '<div class = "head" > Whatsup </div>';
 var divA = document.getElementById('a');
 // divA.parentNode.removeChild(divA);
 
-divA.style.width = "100px";
+divA.style.width = "130px";
 divA.style.backgroundColor = "red";
 divA.style.fontWeight = "50";
 
