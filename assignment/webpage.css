@@ -1,0 +1,58 @@
+#song-header{
+    background-color: grey;
+    height: 35vh;
+    width: 100%;
+}
+
+#song-footer{
+    position: fixed;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(6, 49, 219, 0.966);
+    width: 100%;
+    height: 12vh;
+}
+
+#sidebar{
+    background-color: grey;
+ 
+    height: 100vw;
+    width: 5%;
+
+}
+
+.bottom-album-art{
+    overflow: hidden;
+    width: auto;
+    height: 80%;
+    padding: 15px 15px;
+    
+}
+
+.top-album-art{
+    overflow: hidden;
+    width: auto;
+    height: 80%;
+    padding-left: 80px;
+    padding-top: 25px; 
+
+}
+
+#more-songs{
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+.list{
+    padding: 12px;
+}
+
+/* nav > div {
+    
+    padding-left: 400px;
+    padding-top: 20px;
+} */
+
+
