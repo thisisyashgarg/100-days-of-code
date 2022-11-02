@@ -1,3 +1,11 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+
+
+
 #song-header{
     background-color: grey;
     height: 35vh;
@@ -35,24 +43,37 @@
     width: auto;
     height: 80%;
     padding-left: 80px;
-    padding-top: 25px; 
+    padding-top: 2px; 
 
 }
 
 #more-songs{
     padding-left: 60px;
-    padding-top: 30px;
+    padding-top: 25px;
     font-size: 1.2em;
 }
 
+.controls{
+    padding: 10px;
+    line-height: 5px;
+    color: white;
+    padding-left: 300px;
+    
+
+    
+
+}
 .list{
     padding: 12px;
 }
 
-/* nav > div {
-    
-    padding-left: 400px;
-    padding-top: 20px;
-} */
+
+#playlist-details{
+    padding: 10px;
+    line-height: 5px;
+    color: white;
+    padding-left: 300px;
+
+}
 
 
