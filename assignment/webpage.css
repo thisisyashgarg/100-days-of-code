@@ -1,65 +1,69 @@
 *{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-
-#song-header{
-    background-color: grey;
-    height: 35vh;
-    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#song-footer{
-    position: fixed;
-    padding-bottom: 10px;
+
+
+#sidebar{
+    position: absolute;
+    background-color: rgb(156, 156, 156);
     left: 0;
-    bottom: 0;
-    background-color: rgba(6, 49, 219, 0.966);
-    width: 100%;
+    top: 0;
+    width: 3vw;
+    height: 90vh;
+}
+
+#top-song-details{
+    position: fixed;
+    background-color: rgb(99, 99, 99);
+    height: 30vh;
+    width: 100vw;
+    top: 0;
+    left: 2.4vw;
+   
+}
+
+#top-album-art{
+    position: absolute;
+    height: 180px; 
+    width: 180px; 
+    left: 2.8vw;
+    top: 1.5vh;
+}
+
+#bottom-album-art{
+    position: relative;
+  height: 65px;
+  width: 65px;
+  left: 10px;
+  top: 10px;
+
+    
+    
+}
+
+#footer{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0%;
     height: 12vh;
+    left: 0;
+    width: 100vw;
 }
 
-.bottom-album-art{
-    overflow: hidden;
-    width: auto;
-    height: 80%;
-    padding: 15px 15px;
+.top3{
+    position: relative;
+    left: 250px;
+    line-height: 25%;
+    top: 8px; 
+    color: white;
+}
+
+.play{
+    position: relative;
+    left: 250px;
+    top: 80px;
+    color: white;
+
     
 }
-
-.top-album-art{
-    overflow: hidden;
-    width: auto;
-    height: 80%;
-    padding-left: 80px;
-    padding-top: 2px; 
-
-}
-
-#more-songs{
-    padding-left: 60px;
-    padding-top: 25px;
-    font-size: 1.2em;
-}
-
-.controls{
-    overflow: hidden;
-    padding: 10px;
-    line-height: 5px;
-    color: white;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    
-}
-.list{
-    padding: 12px;
-}
-
-
-#playlist-details{
-    padding: 10px;
-    line-height: 5px;
-    color: white;
-    padding-left: 300px;
-
-}
-
-
